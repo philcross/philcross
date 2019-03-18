@@ -1,0 +1,99 @@
+p {
+    @apply leading-normal text-grey-darker mb-4 !important;
+}
+
+.container-left-side {
+    @apply w-full !important;
+}
+
+.container-right-side {
+    @apply w-full mt-4 rounded mb-10 !important;
+}
+
+.main-nav {
+    @apply list-reset leading-loose text-center mt-5 !important;
+}
+
+.main-nav > li {
+    @apply py-2 !important;
+}
+
+.main-nav > li > a {
+    @apply text-blue-lightest no-underline !important;
+}
+
+.main-nav > li > a:hover {
+    @apply text-blue-light !important;
+}
+
+.nav-image {
+    @apply rounded-full border-2 border-solid border-blue-darker shadow-lg mt-5 !important;
+}
+
+.content-section {
+    @apply -m-10 p-10 rounded !important;
+}
+
+.white-section {
+    @apply bg-white !important;
+}
+
+.grey-section {
+    @apply bg-grey-lightest !important;
+}
+
+.page-title {
+    @apply font-light text-xl text-blue-dark leading-normal tracking-normal mb-4 !important;
+}
+
+.btn {
+    @apply font-bold p-3 border-l-4 rounded shadow-lg no-underline !important;
+}
+
+.btn-blue {
+    @apply bg-blue text-white border-blue-dark !important;
+}
+
+.btn-blue:hover {
+    @apply border-blue-darker bg-blue-dark !important;
+}
+
+.post-date {
+    @apply text-grey-dark leading-normal tracking-normal mb-4 !important;
+}
+
+.blog-content {
+    @apply rounded py-10 mt-10 text-grey-darker !important;
+}
+
+.blog-content p {
+    @apply mb-6 !important;
+}
+
+.blog-content pre {
+    @apply mb-10 bg-black p-10 shadow-lg !important;
+}
+
+@media (min-width: 576px) {
+    .nav-image {
+        @apply w-1/5 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-left-side {
+        @apply w-1/4 !important;
+    }
+
+    .container-right-side {
+        @apply w-3/4 mt-0 !important;
+    }
+
+    .nav-image {
+        @apply w-1/2 !important;
+    }
+
+    .blog-content {
+        @apply px-20 !important;
+    }
+}

@@ -1,7 +1,6 @@
 <template>
     <div class="rounded py-10 mt-10">
-        <blog-preview></blog-preview>
-        <blog-preview></blog-preview>
+        <blog-preview v-for="blog in blogs" :key="blog.id" :blog="blog"></blog-preview>
 
         <slot name="buttons"></slot>
     </div>
@@ -13,7 +12,7 @@
     export default {
         name: 'blog-list',
         props: {
-            display: { required: false, default: 10 },
+            blogs: { required: false, type: Array, default: () => [] },
         },
         components: {
             BlogPreview,
