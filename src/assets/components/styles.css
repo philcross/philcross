@@ -63,7 +63,7 @@ p {
 }
 
 .blog-content {
-    @apply rounded py-10 mt-10 text-grey-darker !important;
+    @apply rounded py-10 mt-10 text-grey-darker -mx-10 bg-white !important;
 }
 
 .blog-content p {
