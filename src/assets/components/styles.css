@@ -39,7 +39,7 @@ p {
 }
 
 .grey-section {
-    @apply bg-grey-lightest !important;
+    @apply bg-grey-lighter !important;
 }
 
 .page-title {

@@ -18,6 +18,13 @@
         </div>
 
         <div class="w-full inline-flex">
+            <div class="w-1/3 text-right text-md p-4 text-blue-dark leading-normal tracking-normal"><strong>Stackoverflow</strong></div>
+            <div class="w-2/3 p-4 text-grey-darker leading-normal tracking-normal">
+                <a href="https://stackoverflow.com/users/1569591/phil-cross?tab=profile" class="text-grey-dark hover:text-blue no-underline">phil-cross</a>
+            </div>
+        </div>
+
+        <div class="w-full inline-flex">
             <div class="w-1/3 text-right text-md p-4 text-blue-dark leading-normal tracking-normal"><strong>Github</strong></div>
             <div class="w-2/3 p-4 text-grey-darker leading-normal tracking-normal">
                 <a href="https://www.github.com/philcross" class="text-grey-dark hover:text-blue no-underline">philcross</a>
