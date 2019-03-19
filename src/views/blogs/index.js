@@ -1,5 +1,12 @@
 export default [
     {
+        id: 'using-xdebug-for-the-first-time',
+        title: 'Using Xdebug for the first time',
+        date: 'Tuesday, 19th March 2019, 21:47',
+        preview: 'In 2 recent interviews, I was asked how I debug code. I\'ve worked with legacy a lot, so am super familiar with using var_dump, and Laravels dd and dump methods. But I just started looking at Xdebug, and this is how I got on.',
+        file: 'UsingXdebugForTheFirstTime',
+    },
+    {
         id: 'reflecting-on-recent-interviews',
         title: 'Reflecting on Recent Interviews',
         date: 'Sunday, 17th March 2019, 23:13',
