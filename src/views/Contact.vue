@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="content-section white-section">
-            <p class="page-title">I'm Phil, a senior PHP software engineer from Torquay</p>
-            <p>Bacon ipsum dolor amet jerky prosciutto corned beef buffalo, boudin biltong ham hock short ribs tongue leberkas. Picanha shankle corned beef capicola cow. Swine shoulder salami, pig chicken cow ground round pork chop beef ribs ball tip tri-tip kevin beef. Turducken salami biltong, short loin pig ham jerky spare ribs meatloaf hamburger.</p>
+            <p class="page-title">Contacting me</p>
+            <p>If you want to contact me, or have questions / comments, or just want to see more things I do, I've added some links to various sites I've signed up to. I'll always try to answer emails, so feel free to send one across.</p>
         </div>
 
         <div class="w-full inline-flex mt-20">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="w-full inline-flex">
-            <div class="w-1/3 text-right text-md p-4 text-blue-dark leading-normal tracking-normal"><strong>Stackoverflow</strong></div>
+            <div class="w-1/3 text-right text-md p-4 text-blue-dark leading-normal tracking-normal"><strong>StackOverflow</strong></div>
             <div class="w-2/3 p-4 text-grey-darker leading-normal tracking-normal">
                 <a href="https://stackoverflow.com/users/1569591/phil-cross?tab=profile" class="text-grey-dark hover:text-blue no-underline">phil-cross</a>
             </div>

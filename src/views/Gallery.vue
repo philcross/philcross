@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="content-section white-section">
-            <p class="page-title">I'm Phil, a senior PHP software engineer from Torquay</p>
-            <p>Bacon ipsum dolor amet jerky prosciutto corned beef buffalo, boudin biltong ham hock short ribs tongue leberkas. Picanha shankle corned beef capicola cow. Swine shoulder salami, pig chicken cow ground round pork chop beef ribs ball tip tri-tip kevin beef. Turducken salami biltong, short loin pig ham jerky spare ribs meatloaf hamburger.</p>
+            <p class="page-title">Gallery</p>
+            <p>I'm not a great photographer, but sometimes there's some photos that I'm particularly proud of. Other times it might be pictures of events I was in / things I've been up to. Feel free to take a look.</p>
         </div>
 
         <div class="rounded py-10 mt-10">
@@ -26,12 +26,12 @@
 
             <div class="w-full text-center">
                 <div class="inline-flex" v-if="imageSelected">
-                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectPreviousImage"><</a>
-                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectNextImage">></a>
+                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectPreviousImage">&lt;</a>
+                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectNextImage">&gt;</a>
                 </div>
                 <div class="inline-flex" v-else>
-                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectPreviousPage(page)"><</a>
-                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectNextPage(page)">></a>
+                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectPreviousPage(page)">&lt;</a>
+                    <a href="/" class="bg-blue hover:bg-blue-dark rounded-full p-2 m-2 w-8 text-white no-underline flex-1 shadow-lg" v-on:click.prevent="selectNextPage(page)">&gt;</a>
                 </div>
             </div>
         </div>
@@ -63,8 +63,6 @@
             selectImage: function (key) {
                 this.key = key;
                 this.imageSelected = this.images[key];
-
-                console.log({ key: this.key, selected: this.imageSelected });
             },
             selectNextImage: function () {
                 let nextKey = ++this.key;

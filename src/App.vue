@@ -20,8 +20,8 @@
                     <hr />
 
                     <ul class="main-nav">
-                        <li><a href="/">Twitter</a></li>
-                        <li><a href="/">Linkedin</a></li>
+                        <li><a href="https://www.twitter.com/philcrossuk">Twitter</a></li>
+                        <li><a href="https://www.github.com/philcross">Github</a></li>
                     </ul>
                 </div>
 
