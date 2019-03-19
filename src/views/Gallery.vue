@@ -55,16 +55,7 @@
                 page: 1,
                 displayed: [],
                 images: [
-                    { url: '/images/phil_brody.jpg', description: 'Phil and Brody' },
-                    { url: '/images/space_apps_1.jpeg', description: 'Space Apps' },
-                    { url: '/images/phil_brody.jpg', description: 'Phil and Brody' },
-                    { url: '/images/space_apps_1.jpeg', description: 'Space Apps' },
-                    { url: '/images/phil_brody.jpg', description: 'Phil and Brody' },
-                    { url: '/images/space_apps_1.jpeg', description: 'Space Apps' },
-                    { url: '/images/phil_brody.jpg', description: 'Phil and Brody' },
-                    { url: '/images/space_apps_1.jpeg', description: 'Space Apps' },
-                    { url: '/images/phil_brody.jpg', description: 'Phil and Brody' },
-                    { url: '/images/space_apps_1.jpeg', description: 'Space Apps' },
+                    { url: '/images/phil_brody.jpg', description: 'Me and Brody' },
                 ]
             }
         },
