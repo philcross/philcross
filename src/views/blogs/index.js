@@ -1,5 +1,12 @@
 export default [
     {
+        id: 'getting-back-ubuntu',
+        title: 'Getting back Ubuntu',
+        date: 'Sunday, 7th April 2019, 23:30',
+        preview: 'I\'ve just bought a new laptop, and really wanted to get back to using Ubuntu after using a Mac for nearly 2 years.',
+        file: 'GettingBackUbuntu',
+    },
+    {
         id: 'using-xdebug-for-the-first-time',
         title: 'Using Xdebug for the first time',
         date: 'Tuesday, 19th March 2019, 21:47',
