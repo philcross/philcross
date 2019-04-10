@@ -1,5 +1,12 @@
 export default [
     {
+        id: 'php-fpm-and-www-data',
+        title: 'PHP-FPM and www-data',
+        date: 'Wednesday, 10th April 2019, 22:16',
+        preview: 'I\'ve been progressively getting better at understanding docker, but a stupidly annoying issue with PHP-FPM halted my progress.',
+        file: 'PhpFpmAndWwwData',
+    },
+    {
         id: 'getting-back-ubuntu',
         title: 'Getting back Ubuntu',
         date: 'Sunday, 7th April 2019, 23:30',
